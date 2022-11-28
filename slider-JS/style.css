@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+   
+  background-color: rgb(209, 228, 235);
+}
+
+.container {
+  width: 925px;
+  height: 400px;
+  margin-top: 7.8%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 1%;
+}
+
+.container #back,
+#next {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(220, 220, 220);
+  box-shadow: 0 0 3px rgb(#091921, 0.05);
+  border-radius: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 999;
+  position: absolute;
+  top: 48%;
+}
+
+#back {
+  left: 20px;
+}
+
+#next {
+  right: 20px;
+}
+
+.container #slides {
+  width: fit-content;
+  display: flex;
+  height: 398px;
+  position: relative;
+  left: 0;
+  transition: 0.5s all ease;
+}
+
+.slide {
+  width: 925px;
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Alexandria", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  color: white;
+}
+
+
+#slide_ser {
+  width: 949px;
+}
+#slide_it{
+  width: 950px;
+}
